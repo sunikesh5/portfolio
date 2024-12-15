@@ -23,8 +23,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-inline-start: 164px;
-  margin-inline-end: 164px;
+  width: 75rem;
+  margin-inline: auto;
+  max-width: 100%;
   padding-top: 12px;
   padding-inline-start: 22px;
   padding-inline-end: 22px;
@@ -66,20 +67,14 @@ p span {
 
 .main-container {
   position: relative;
-  top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 204px;
-}
-
-.info-text img {
-  position: absolute;
-  z-index: -1;
-  height: 150px;
-  height: 150px;
-  filter: invert(0.1);
-  left: 169px;
+  /* max-width: 70rem; */
+  width: 70rem;
+  top: 80px;
+  padding: 4rem 0;
+  margin-inline: auto;
 }
 
 .info-text {
@@ -94,6 +89,20 @@ p span {
   font-style: normal;
   color: white;
 }
+
+.name-heading{
+  position: relative;
+}
+
+.info-text img {
+  position: absolute;
+  z-index: -1;
+  height: 150px;
+  height: 150px;
+  filter: invert(0.1);
+  left: -4.5%;
+}
+
 .info-text p {
   font-size: 32px;
   font-weight: 600;
@@ -106,6 +115,8 @@ p span {
   margin: 0;
   font-size: 120px;
   font-weight: 600;
+  line-height: 95%;
+
 }
 
 .info-text .intro h2 {
