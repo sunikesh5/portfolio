@@ -98,7 +98,6 @@ p span {
   position: absolute;
   z-index: -1;
   height: 150px;
-  height: 150px;
   filter: invert(0.1);
   left: -4.5%;
 }
@@ -127,6 +126,9 @@ p span {
 }
 
 @media (max-width: 768px) {
+  .info-text img{
+    height: 100px;
+  }
   .info-text .intro h2 {
     font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0416666666666667));
     font-weight: 600;
@@ -186,6 +188,10 @@ p span {
   width: 50%;
 }
 
+.about-me .discription span{
+  color: #3ccf91;
+}
+
 @media (max-width: 768px) {
   .about-me .discription {
     width: 100%;
@@ -217,11 +223,10 @@ p span {
 @media (max-width: 768px) {
   .discription img {
     position: absolute;
-    height: 120px;
-    width: 120px;
+    width: 100px;
     filter: invert(0.1);
-    left: 63%;
-    top: 61%;
+    left: 68%;
+    top: 53.5%;
   }
 }
 
