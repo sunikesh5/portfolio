@@ -314,7 +314,7 @@ p span {
 #item-3 {
   background-color: rgb(10, 10, 10);
   border-radius: 10px;
-  border: 0.4px solid rgb(22, 21, 21);
+  border: 0.4px solid rgb(75 73 73);
 }
 
 #item-2 {
@@ -421,7 +421,7 @@ p span {
 #item-3 {
   background-color: rgb(10, 10, 10);
   border-radius: 10px;
-  border: 0.4px solid rgb(22, 21, 21);
+  border: 0.4px solid rgb(75 73 73);
 }
 
 #item-3 > div {
@@ -438,7 +438,7 @@ p span {
 #item-4 {
   background-color: rgb(10, 10, 10);
   border-radius: 10px;
-  border: 0.4px solid rgb(22, 21, 21);
+  border: 0.4px solid rgb(75 73 73);
 }
 
 #item-4 > div {
@@ -520,8 +520,7 @@ p span {
 }
 
 @media (max-width: 768px) {
-
-  .blogs{
+  .blogs {
     margin-top: 100px;
   }
 
@@ -530,7 +529,7 @@ p span {
     font-weight: 700;
     margin: 0;
   }
-  
+
   .article-head a {
     font-size: 0.875rem;
     color: #3ccf91;
@@ -573,8 +572,8 @@ p span {
   color: white;
 }
 
-@media(max-width:768px) {
-  .article-container > div .blog-title{
+@media (max-width: 768px) {
+  .article-container > div .blog-title {
     font-size: 1rem;
   }
 }
@@ -618,12 +617,12 @@ section span {
   color: #3ccf91;
 }
 
-@media(max-width:768px) {
-  section{
+@media (max-width: 768px) {
+  section {
     margin-top: 100px;
   }
 
-  section h2{
+  section h2 {
     font-size: 2.25rem;
   }
 }
